@@ -1,0 +1,77 @@
+{
+    "PagesRange": [
+        {
+            "range": [1, 1],
+            "Print": {
+                "operations": [
+                    { "type": "color", "method": "multiply", "value": 2 },
+                    { "type": "normal", "method": "multiply", "value": 1 }
+                ]
+            }
+        },
+        
+        {
+            "range": [1, 20],
+            "Print": {
+                "operations": [
+                    { "type": "color", "method": "multiply", "value": 2 },
+                    { "type": "normal", "method": "divide", "value": 2 }
+                ]
+            }
+        },
+       {
+            "range": [21, 100],
+            "Print": {
+                "operations": [
+                    { "type": "color", "method": "multiply", "value": 1.5 },
+                    { "type": "normal", "method": "divide", "value": 3 }
+                ]
+            }
+        },{
+            "range": [101, 200],
+            "Print": {
+                "operations": [
+                    { "type": "color", "method": "multiply", "value": 1 },
+                    { "type": "normal", "method": "divide", "value": 5 }
+                ]
+            }
+        },{
+            "range": [201, 300],
+            "Print": {
+                "operations": [
+                    { "type": "color", "method": "divide", "value": 2 },
+                    { "type": "normal", "method": "divide", "value": 7 }
+                ]
+            }
+        },{
+            "range": [301, 9999999999],
+            "Print": {
+                "operations": [
+                    { "type": "color", "method": "divide", "value": 3},
+                    { "type": "normal", "method": "divide", "value": 10 }
+                ]
+            }
+        }
+    ],
+  "CoverPrice": {
+        "بلاستيك": [
+            { "range": [1, 35], "price": 3 },
+            { "range": [36, 45], "price": 4 },
+            { "range": [46, 65], "price": 5 },
+            { "range": [66, 100], "price": 6 },
+            { "range": [101, 99999999], "price": 10 }
+        ],
+        "حديد": [
+            { "range": [1, 50], "price": 5 },
+            { "range": [51, 60], "price": 6 },
+            { "range": [61, 70], "price": 7 },
+            { "range": [71, 80], "price": 8 },
+            { "range": [81, 90], "price": 9 },
+            { "range": [91, 999999999], "price": 10 }
+        ],
+        "شطرطون": [
+            { "range": [1, 999999999], "price": 2 }
+        ]
+    }
+    
+}

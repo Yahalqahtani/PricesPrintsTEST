@@ -1,0 +1,71 @@
+{
+    "PagesRange": [
+        {
+            "range": [1, 1],
+
+            "Print": {
+                "color": 2,
+                "normal": 1
+            }
+        },
+        {
+            "range": [1, 20],
+
+            "Print": {
+                "color": 2,
+                "normal": 2
+            }
+        },
+        {
+            "range": [21, 100],
+
+            "Print": {
+                "color": 1.5,
+                "normal": 3
+            }
+        },
+        {
+            "range": [101, 200],
+
+            "Print": {
+                "color": 1,
+                "normal": 5
+            }
+        },
+        {
+            "range": [201, 300],
+
+            "Print": {
+                "color": 2,
+                "normal": 7
+            }
+        },
+        {
+            "range": [301],
+
+            "Print": {
+                "color": 3,
+                "normal": 10
+            }
+        }
+    ],
+
+    "CoverPrice": {
+        "plastic": [
+            { "range": [1, 35], "price": 3 },
+            { "range": [36, 45], "price": 4 },
+            { "range": [46, 65], "price": 5 },
+            { "range": [66, 100], "price": 6 },
+            { "range": [101, null], "price": 10 }
+        ],
+        "iron": [
+            { "range": [1, 50], "price": 5 },
+            { "range": [51, 60], "price": 5 },
+            { "range": [61, 70], "price": 5 },
+            { "range": [71, 80], "price": 5 },
+            { "range": [81, 90], "price": 5 },
+            { "range": [91, null], "price": 5 }
+        ],
+        "tape": [{ "range": [1, null], "price": 2 }]
+    }
+}
